@@ -169,3 +169,25 @@ footer {
     text-align: center;
   }
 }
+
+
+
+/* projects added later for styling for projects- */
+#projects .grid-item {
+  position: relative;
+}
+
+#projects .grid-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#projects .grid-item a:hover {
+  background-color: #217dbb;
+}
